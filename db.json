@@ -4,31 +4,31 @@
       "id": 1,
       "name": "Hotel River",
       "description": "Hotel de lujo",
-      "image": "image/hotel1.jpg"
+      "image": "/image/hotel1.jpg"
     },
     {
       "id": 2,
       "name": "Hotel Ocean View",
       "description": "Vistas impresionantes al océano",
-      "image": "image/hotel2.jpg"
+      "image": "/image/hotel2.jpg"
     },
     {
       "id": 3,
       "name": "Hotel Mountain Retreat",
       "description": "Rodeado de montañas",
-      "image": "image/hotel3.jpg"
+      "image": "/image/hotel3.jpg"
     },
     {
       "id": 4,
       "name": "Hotel City Lights",
       "description": "Vistas panorámicas de la ciudad",
-      "image": "image/hotel4.jpg"
+      "image": "/image/hotel4.jpg"
     },
     {
       "id": 5,
       "name": "Hotel Beach Paradise",
       "description": "En la costa de una hermosa playa",
-      "image": "image/hotel5.jpg"
+      "image": "/image/hotel5.jpg"
     }
   ]
 }
