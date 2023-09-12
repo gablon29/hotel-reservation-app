@@ -5,8 +5,8 @@ import {
   Typography,
   Card,
   CardActions,
-  cardContent,
   CardMedia,
+  CardContent,
 } from "@mui/material";
 
 const fetchHotel = async (id) => {
@@ -33,6 +33,7 @@ const HotelDetail = () => {
   if (error) {
     return <div>Error fetching Hotel! {error.message}</div>;
   }
+
   return (
     <Card sx={{ maxWidth: 345, backgroundColor: "#e8e8e8" }}>
       <CardMedia sx={{ height: 140 }} image={hotel.image} title={hotel.name} />
