@@ -8,6 +8,7 @@ import {
   CardMedia,
   CardContent,
 } from "@mui/material";
+import BookingForm from "./BookingForm";
 
 const fetchHotel = async (id) => {
   const res = await fetch(`http://localhost:3001/hotels/${id}`);
@@ -45,7 +46,9 @@ const HotelDetail = () => {
           {hotel.description}
         </Typography>
       </CardContent>
-      <CardActions>{/* content formulario */}</CardActions>
+      <CardActions>
+        <BookingForm hotel={hotel} />
+      </CardActions>
     </Card>
   );
 };
